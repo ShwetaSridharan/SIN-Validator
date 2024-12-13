@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  #sinInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+
+  body input[type=text]:focus {
+    outline: 2px solid #ff0190;
+    outline-offset: -2px;
+  }
+  
+  #validateButton {
+    padding: 10px 20px;
+    background-color: #ff0190;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
